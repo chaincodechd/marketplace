@@ -3,15 +3,15 @@ import { Header } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import classNames from 'classnames'
 import { Sections } from '../../../modules/routing/types'
-import { Section } from '../../../modules/vendor/decentraland'
+// import { Section } from '../../../modules/vendor/decentraland'
 import { Menu } from '../../Menu'
 import { Props } from './OtherAccountSidebar.types'
-import NFTSectionsMenuItems from '../../Vendor/decentraland/NFTSections/NFTSectionsMenuItems'
+// import NFTSectionsMenuItems from '../../Vendor/decentraland/NFTSections/NFTSectionsMenuItems'
 import { AssetType } from '../../../modules/asset/types'
 
-const { ALL, LAND, WEARABLES, EMOTES, ENS } = Sections.decentraland
+const { ALL,WEARABLES} = Sections.decentraland
 
-const OtherAccountSidebar = ({ section, assetType, onBrowse }: Props) => (
+const OtherAccountSidebar = ({ assetType, onBrowse }: Props) => (
   <>
     <Menu>
       <Header sub>{t('account_sidebar.store')}</Header>
@@ -46,7 +46,7 @@ const OtherAccountSidebar = ({ section, assetType, onBrowse }: Props) => (
       <Header sub>
         {assetType === AssetType.ITEM ? 'CATEGORIES' : 'ASSETS'}
       </Header>
-      <NFTSectionsMenuItems
+      {/* <NFTSectionsMenuItems
         sections={
           assetType === AssetType.ITEM
             ? [WEARABLES]
@@ -54,7 +54,7 @@ const OtherAccountSidebar = ({ section, assetType, onBrowse }: Props) => (
         }
         section={section as Section}
         onSectionClick={section => onBrowse({ section, assetType })}
-      />
+      /> */}
     </Menu>
   </>
 )

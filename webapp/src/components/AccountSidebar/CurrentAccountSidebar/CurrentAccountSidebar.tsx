@@ -2,21 +2,21 @@ import React from 'react'
 import { Header } from 'decentraland-ui'
 import { t } from 'decentraland-dapps/dist/modules/translation/utils'
 import { Sections } from '../../../modules/routing/types'
-import { Section } from '../../../modules/vendor/decentraland'
+// import { Section } from '../../../modules/vendor/decentraland'
 import { VendorName } from '../../../modules/vendor/types'
 import { Menu } from '../../Menu'
 import { MenuItem } from '../../Menu/MenuItem'
 import { Props } from './CurrentAccountSidebar.types'
-import NFTSectionsMenuItems from '../../Vendor/decentraland/NFTSections/NFTSectionsMenuItems'
+// import NFTSectionsMenuItems from '../../Vendor/decentraland/NFTSections/NFTSectionsMenuItems'
 
 const decentraland = VendorName.DECENTRALAND
 
 const {
   COLLECTIONS,
-  LAND,
-  WEARABLES,
-  EMOTES,
-  ENS,
+  // LAND,
+  // WEARABLES,
+  // EMOTES,
+  // ENS,
   ON_SALE,
   SALES,
   BIDS,
@@ -33,11 +33,11 @@ const CurrentAccountSidebar = ({ section, onBrowse }: Props) => (
         currentValue={section}
         onClick={section => onBrowse(decentraland, section)}
       />
-      <NFTSectionsMenuItems
+      {/* <NFTSectionsMenuItems
         sections={[LAND, WEARABLES, EMOTES, ENS]}
         section={section as Section}
         onSectionClick={section => onBrowse(decentraland, section)}
-      />
+      /> */}
     </Menu>
     <Menu>
       <Header sub>{t('account_sidebar.store')}</Header>
