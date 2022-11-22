@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
-import { Card, Button, Loader } from 'decentraland-ui'
+import { Card, Button, Loader } from '@chaincodedev/decentraland-ui'
 import { Item } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { getAnalytics } from '@chaincodedev/decentraland-dapps/dist/modules/analytics/utils'
 
 import { getMaxQuerySize, MAX_PAGE, PAGE_SIZE } from '../../modules/vendor/api'
 import { AssetType } from '../../modules/asset/types'

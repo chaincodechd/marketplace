@@ -1,5 +1,5 @@
 import { RentalListing } from '@dcl/schemas'
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction } from '@chaincodedev/decentraland-dapps/dist/modules/transaction/types'
 import { NFT } from '../../../modules/nft/types'
 import { VendorName } from '../../../modules/vendor'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from 'decentraland-ui'
+import { IconProps } from '@chaincodedev/decentraland-ui'
 
 export type Props = {
   className: string

@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { useProximity } from '../../../modules/proximity/hooks'
 import { Proximity } from '../../../modules/proximity/types'
 import { getDistanceText } from '../../../modules/proximity/utils'

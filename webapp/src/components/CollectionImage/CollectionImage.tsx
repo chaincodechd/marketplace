@@ -1,5 +1,5 @@
 import React from 'react'
-import { Loader } from 'decentraland-ui'
+import { Loader } from '@chaincodedev/decentraland-ui'
 import { Item } from '@dcl/schemas'
 import { Props } from './CollectionImage.types'
 import { AssetImage } from '../AssetImage'

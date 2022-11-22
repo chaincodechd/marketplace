@@ -20,8 +20,8 @@ import {
   Tabs,
   EmoteIcon,
   WearableIcon
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { getBuilderCollectionDetailUrl } from '../../modules/collection/utils'
 import { formatWeiMANA } from '../../lib/mana'
 import { Navbar } from '../Navbar'

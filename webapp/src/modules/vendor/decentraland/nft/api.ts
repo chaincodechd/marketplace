@@ -1,5 +1,5 @@
 import { RentalStatus } from '@dcl/schemas'
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from '@chaincodedev/decentraland-dapps/dist/lib/api'
 import { NFTsFetchParams } from '../../../nft/types'
 import { NFTsFetchFilters, NFTResponse, NFTResult } from './types'
 import { ATLAS_SERVER_URL } from '../land'

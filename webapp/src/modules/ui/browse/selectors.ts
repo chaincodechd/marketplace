@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect'
 import { Item, Order, RentalListing } from '@dcl/schemas'
-import { Transaction, TransactionStatus } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction, TransactionStatus } from '@chaincodedev/decentraland-dapps/dist/modules/transaction/types'
 import { getData as getNFTData } from '../../nft/selectors'
 import { getData as getItemData } from '../../item/selectors'
 import { getData as getOrderData } from '../../order/selectors'

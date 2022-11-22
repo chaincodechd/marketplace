@@ -1,4 +1,4 @@
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
+import { Authorization } from '@chaincodedev/decentraland-dapps/dist/modules/authorization/types'
 
 export function isAuthorized(
   authorization: Authorization,

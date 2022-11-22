@@ -11,11 +11,11 @@ import {
   Dropdown,
   DropdownProps,
   Mobile
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 import { Item, NFTCategory, Sale, SaleSortBy } from '@dcl/schemas'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Profile } from 'decentraland-dapps/dist/containers'
+import { getAnalytics } from '@chaincodedev/decentraland-dapps/dist/modules/analytics/utils'
+import { T, t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { Profile } from '@chaincodedev/decentraland-dapps/dist/containers'
 import { useScrollSectionIntoView } from '../../modules/ui/utils'
 import { AssetProvider } from '../AssetProvider'
 import { AssetType } from '../../modules/asset/types'

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, ModalNavigation } from 'decentraland-ui'
-import { Modal } from 'decentraland-dapps/dist/containers'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, ModalNavigation } from '@chaincodedev/decentraland-ui'
+import { Modal } from '@chaincodedev/decentraland-dapps/dist/containers'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Props } from './TestModal.types'
 
 const TestModal = ({ name, metadata, address, onConfirm, onClose }: Props) => {

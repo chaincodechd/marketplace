@@ -1,5 +1,5 @@
 import { ChainId, Network } from '@dcl/schemas'
-import { RetryParams } from 'decentraland-dapps/dist/lib/api'
+import { RetryParams } from '@chaincodedev/decentraland-dapps/dist/lib/api'
 import {
   ContractData,
   ContractName,

@@ -1,7 +1,7 @@
 import {
   grantTokenRequest,
   GrantTokenRequestAction
-} from 'decentraland-dapps/dist/modules/authorization/actions'
+} from '@chaincodedev/decentraland-dapps/dist/modules/authorization/actions'
 import { Dispatch } from 'redux'
 import { NFT } from '../../../../modules/nft/types'
 

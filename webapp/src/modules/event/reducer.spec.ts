@@ -1,4 +1,4 @@
-import { loadingReducer } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { loadingReducer } from '@chaincodedev/decentraland-dapps/dist/modules/loading/reducer'
 import {
   fetchEventFailure,
   fetchEventRequest,

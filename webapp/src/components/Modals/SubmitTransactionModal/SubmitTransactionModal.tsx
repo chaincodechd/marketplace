@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Loader, Message, ModalNavigation } from 'decentraland-ui'
-import { Modal } from 'decentraland-dapps/dist/containers'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Loader, Message, ModalNavigation } from '@chaincodedev/decentraland-ui'
+import { Modal } from '@chaincodedev/decentraland-dapps/dist/containers'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Props } from './SubmitTransactionModal.types'
 import styles from './SubmitTransactionModal.module.css'
 

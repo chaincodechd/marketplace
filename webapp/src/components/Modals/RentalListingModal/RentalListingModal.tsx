@@ -3,9 +3,9 @@ import classNames from 'classnames'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
-import { hasAuthorization } from 'decentraland-dapps/dist/modules/authorization/utils'
-import { Modal } from 'decentraland-dapps/dist/containers'
+} from '@chaincodedev/decentraland-dapps/dist/modules/authorization/types'
+import { hasAuthorization } from '@chaincodedev/decentraland-dapps/dist/modules/authorization/utils'
+import { Modal } from '@chaincodedev/decentraland-dapps/dist/containers'
 import { ContractName, getContract } from 'decentraland-transactions'
 import { Props } from './RentalListingModal.types'
 import {

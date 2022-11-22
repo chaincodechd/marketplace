@@ -2,8 +2,8 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { LazyImage } from 'react-lazy-images'
 import classNames from 'classnames'
 import { BodyShape, NFTCategory, PreviewEmote, Rarity } from '@dcl/schemas'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import { T, t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { getAnalytics } from '@chaincodedev/decentraland-dapps/dist/modules/analytics/utils'
 import {
   Button,
   Center,
@@ -11,7 +11,7 @@ import {
   Loader,
   Popup,
   WearablePreview
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 
 import { getAssetImage, getAssetName } from '../../modules/asset/utils'
 import { getSelection, getCenter } from '../../modules/nft/estate/utils'

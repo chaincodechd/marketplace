@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Option, RadioBox } from '../../../AssetBrowse/RadioBox'
 import { browseRentedLAND } from '../utils'
 import { LANDFilters } from '../types'

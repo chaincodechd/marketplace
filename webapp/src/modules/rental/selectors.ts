@@ -1,5 +1,5 @@
 import { RentalListing } from '@dcl/schemas'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from '@chaincodedev/decentraland-dapps/dist/modules/loading/selectors'
 import { RootState } from '../reducer'
 import {
   ACCEPT_RENTAL_LISTING_REQUEST,

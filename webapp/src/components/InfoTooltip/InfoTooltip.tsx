@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popup } from 'decentraland-ui'
+import { Popup } from '@chaincodedev/decentraland-ui'
 import { Props } from './InfoTooltip.types'
 import './InfoTooltip.css'
 

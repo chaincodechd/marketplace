@@ -1,6 +1,6 @@
 import React from 'react'
-import { Header } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header } from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Sections } from '../../../modules/routing/types'
 import { Section } from '../../../modules/vendor/decentraland'
 import { VendorName } from '../../../modules/vendor/types'
@@ -13,7 +13,7 @@ const decentraland = VendorName.DECENTRALAND
 
 const {
   COLLECTIONS,
-  LAND,
+  // LAND,
   WEARABLES,
   EMOTES,
   ENS,
@@ -39,7 +39,8 @@ const CurrentAccountSidebar = ({
         onClick={section => onBrowse(decentraland, section)}
       />
       <NFTSectionsMenuItems
-        sections={[LAND, WEARABLES, EMOTES, ENS]}
+        // sections={[LAND, WEARABLES, EMOTES, ENS]}
+        sections={[WEARABLES, EMOTES, ENS]}
         section={section as Section}
         onSectionClick={section => onBrowse(decentraland, section)}
       />

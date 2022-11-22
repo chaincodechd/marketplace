@@ -1,5 +1,5 @@
 import { NFTCategory, RentalListing } from '@dcl/schemas'
-import { LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { LoadingState } from '@chaincodedev/decentraland-dapps/dist/modules/loading/reducer'
 import { RootState } from '../reducer'
 import { NFT } from '../nft/types'
 import { claimLandRequest, removeRentalRequest } from './actions'

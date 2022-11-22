@@ -8,9 +8,9 @@ import {
 } from '@dcl/schemas'
 import { call, select } from '@redux-saga/core/effects'
 import { AuthIdentity } from 'decentraland-crypto-fetch'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
-import { waitForTx } from 'decentraland-dapps/dist/modules/transaction/utils'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { getConnectedProvider } from '@chaincodedev/decentraland-dapps/dist/lib/eth'
+import { waitForTx } from '@chaincodedev/decentraland-dapps/dist/modules/transaction/utils'
+import { sendTransaction } from '@chaincodedev/decentraland-dapps/dist/modules/wallet/utils'
 import {
   ContractData,
   ContractName,

@@ -10,9 +10,9 @@ import {
   Button,
   Field,
   Checkbox
-} from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Modal } from 'decentraland-dapps/dist/containers'
+} from '@chaincodedev/decentraland-ui'
+import { T, t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { Modal } from '@chaincodedev/decentraland-dapps/dist/containers'
 import { formatWeiMANA } from '../../../lib/mana'
 import { Mana } from '../../Mana'
 import { ManaField } from '../../ManaField'

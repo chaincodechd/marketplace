@@ -10,9 +10,9 @@ import {
   NotMobile,
   Page,
   Section
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 import { NFTCategory, RentalListing, RentalStatus } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { AssetType } from '../../modules/asset/types'
 import { builderUrl } from '../../lib/environment'
 import { NFT } from '../../modules/nft/types'

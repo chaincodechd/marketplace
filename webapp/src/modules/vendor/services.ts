@@ -6,7 +6,7 @@ import {
   Order,
   RentalListing
 } from '@dcl/schemas'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from '@chaincodedev/decentraland-dapps/dist/modules/wallet/types'
 import { NFT, NFTsFetchParams, NFTsCountParams } from '../nft/types'
 import { Account } from '../account/types'
 import { AnalyticsTimeframe, AnalyticsVolumeData } from '../analytics/types'

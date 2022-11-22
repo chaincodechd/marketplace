@@ -5,14 +5,14 @@ import {
   ModalNavigation,
   Loader,
   Message
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
+} from '@chaincodedev/decentraland-dapps/dist/modules/authorization/types'
 import { ContractName, getContract } from 'decentraland-transactions'
-import { TransactionLink } from 'decentraland-dapps/dist/containers'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { TransactionLink } from '@chaincodedev/decentraland-dapps/dist/containers'
+import { T, t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Props } from './AuthorizationStep.types'
 import styles from './AuthorizationStep.module.css'
 

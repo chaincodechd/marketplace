@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { Dispatch } from 'redux'
 import { RentalListing } from '@dcl/schemas'
-import { openModal } from 'decentraland-dapps/dist/modules/modal/actions'
+import { openModal } from '@chaincodedev/decentraland-dapps/dist/modules/modal/actions'
 import { RootState } from '../../../modules/reducer'
 import { isClaimingBackLandTransactionPending, getLastTransactionForClaimingBackLand} from '../../../modules/ui/browse/selectors'
 import { MapStateProps, MapDispatchProps, OwnProps } from './Rent.types'

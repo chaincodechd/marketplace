@@ -1,5 +1,5 @@
 import { RentalListing } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { buildTransactionPayload } from '@chaincodedev/decentraland-dapps/dist/modules/transaction/utils'
 import { NFT } from '../nft/types'
 import {
   acceptRentalListingFailure,

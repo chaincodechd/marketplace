@@ -1,5 +1,5 @@
 import { RentalListing } from '@dcl/schemas'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from '@chaincodedev/decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { NFT } from '../../../modules/nft/types'
 
 export type Metadata = {

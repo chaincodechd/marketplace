@@ -10,9 +10,9 @@ import {
   Dropdown,
   DropdownProps,
   Mobile
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 import { EmoteCategory, Rarity, WearableCategory } from '@dcl/schemas'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { T, t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import {
   AnalyticsTimeframe,
   CollectorRank,

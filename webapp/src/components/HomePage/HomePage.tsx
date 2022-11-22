@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo } from 'react'
-import { Page } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import { Page } from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { getAnalytics } from '@chaincodedev/decentraland-dapps/dist/modules/analytics/utils'
 import { locations } from '../../modules/routing/locations'
 import { VendorName } from '../../modules/vendor/types'
 import { BrowseOptions, SortBy } from '../../modules/routing/types'
@@ -36,7 +36,7 @@ const HomePage = (props: Props) => {
       [View.HOME_TRENDING_ITEMS]: Section.WEARABLES_TRENDING,
       [View.HOME_NEW_ITEMS]: Section.WEARABLES,
       [View.HOME_WEARABLES]: Section.WEARABLES,
-      [View.HOME_LAND]: Section.LAND,
+      // [View.HOME_LAND]: Section.LAND,
       [View.HOME_ENS]: Section.ENS
     }),
     []
@@ -63,7 +63,7 @@ const HomePage = (props: Props) => {
       [View.HOME_NEW_ITEMS]: AssetType.ITEM,
       [View.HOME_SOLD_ITEMS]: AssetType.ITEM,
       [View.HOME_WEARABLES]: AssetType.NFT,
-      [View.HOME_LAND]: AssetType.NFT,
+      // [View.HOME_LAND]: AssetType.NFT,
       [View.HOME_ENS]: AssetType.NFT
     }),
     []
@@ -74,7 +74,7 @@ const HomePage = (props: Props) => {
       [View.HOME_NEW_ITEMS]: SortBy.RECENTLY_LISTED,
       [View.HOME_SOLD_ITEMS]: SortBy.RECENTLY_SOLD,
       [View.HOME_WEARABLES]: SortBy.RECENTLY_LISTED,
-      [View.HOME_LAND]: SortBy.RECENTLY_LISTED,
+      // [View.HOME_LAND]: SortBy.RECENTLY_LISTED,
       [View.HOME_ENS]: SortBy.RECENTLY_LISTED
     }),
     []
@@ -202,7 +202,11 @@ const HomePage = (props: Props) => {
     2
   ) as HomepageView[]
   // rest of the sections
-  const secondViewsSection = homepageWithoutLatestSales as HomepageView[]
+
+  let secondViewsSection = homepageWithoutLatestSales as HomepageView[]
+  // const secondViewsSection = homepageWithoutLatestSales as HomepageView[]
+  // secondViewsSection
+  secondViewsSection.splice(1, 1)
 
   return (
     <>

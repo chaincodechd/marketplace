@@ -12,9 +12,9 @@ import {
   getContract,
   Provider
 } from 'decentraland-transactions'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
-import { waitForTx } from 'decentraland-dapps/dist/modules/transaction/utils'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+import { getConnectedProvider } from '@chaincodedev/decentraland-dapps/dist/lib/eth'
+import { waitForTx } from '@chaincodedev/decentraland-dapps/dist/modules/transaction/utils'
+import { sendTransaction } from '@chaincodedev/decentraland-dapps/dist/modules/wallet/utils'
 import { ethers } from 'ethers'
 import { call, delay, put, select, takeEvery } from 'redux-saga/effects'
 import { NFT } from '../nft/types'

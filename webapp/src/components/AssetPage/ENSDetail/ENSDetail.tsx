@@ -1,6 +1,6 @@
 import React from 'react'
-import { Badge } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Badge } from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { AssetImage } from '../../AssetImage'
 import { Network } from '../Network'
 import { Owner } from '../Owner'

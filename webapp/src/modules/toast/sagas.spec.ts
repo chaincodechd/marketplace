@@ -1,6 +1,6 @@
 import { RentalListing } from '@dcl/schemas'
-import { showToast } from 'decentraland-dapps/dist/modules/toast/actions'
-import { getState } from 'decentraland-dapps/dist/modules/toast/selectors'
+import { showToast } from '@chaincodedev/decentraland-dapps/dist/modules/toast/actions'
+import { getState } from '@chaincodedev/decentraland-dapps/dist/modules/toast/selectors'
 import { expectSaga } from 'redux-saga-test-plan'
 import { select } from 'redux-saga/effects'
 import { NFT } from '../nft/types'

@@ -1,12 +1,12 @@
 import { connect } from 'react-redux'
 import { ContractName, getContract } from 'decentraland-transactions'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getError } from 'decentraland-dapps/dist/modules/authorization/selectors'
-import { getLoading as getAuthorizationLoading } from 'decentraland-dapps/dist/modules/authorization/selectors'
+import { isLoadingType } from '@chaincodedev/decentraland-dapps/dist/modules/loading/selectors'
+import { getError } from '@chaincodedev/decentraland-dapps/dist/modules/authorization/selectors'
+import { getLoading as getAuthorizationLoading } from '@chaincodedev/decentraland-dapps/dist/modules/authorization/selectors'
 import {
   grantTokenRequest,
   GRANT_TOKEN_REQUEST
-} from 'decentraland-dapps/dist/modules/authorization/actions'
+} from '@chaincodedev/decentraland-dapps/dist/modules/authorization/actions'
 import { RootState } from '../../../../modules/reducer'
 import { getAddress } from '../../../../modules/wallet/selectors'
 import { getPendingAuthorizationTransactions } from '../../../../modules/transaction/selectors'

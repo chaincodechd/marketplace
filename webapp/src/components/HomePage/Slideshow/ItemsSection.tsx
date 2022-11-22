@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import {
   Dropdown,
   DropdownProps,
@@ -8,7 +8,7 @@ import {
   NotMobile,
   Tabs,
   WearableIcon
-} from 'decentraland-ui'
+} from '@chaincodedev/decentraland-ui'
 import { HomepageView } from '../../../modules/ui/asset/homepage/types'
 import { Section } from '../../../modules/vendor/decentraland/routing/types'
 

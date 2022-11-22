@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page, Section, Column, Back, Narrow } from 'decentraland-ui'
+import { Page, Section, Column, Back, Narrow } from '@chaincodedev/decentraland-ui'
 import { Asset, AssetType } from '../../modules/asset/types'
 import { locations } from '../../modules/routing/locations'
 import { Sections } from '../../modules/routing/types'

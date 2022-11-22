@@ -6,8 +6,8 @@ import {
   Dropdown,
   Pagination,
   NotMobile
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { OnSaleOrRentType, Props } from './OnSaleOrRentList.types'
 import { SortBy } from '../../modules/routing/types'
 import { useProcessedElements } from './utils'

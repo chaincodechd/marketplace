@@ -1,6 +1,6 @@
 import { NFTCategory, Order } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { Wallet } from '@chaincodedev/decentraland-dapps/dist/modules/wallet/types'
 import { NFT } from '../nft/types'
 import { locations } from '../routing/locations'
 import { addressEquals } from '../wallet/utils'

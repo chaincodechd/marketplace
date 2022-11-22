@@ -1,6 +1,6 @@
 import { RootState } from '../reducer'
-import { getIsFeatureEnabled } from 'decentraland-dapps/dist/modules/features/selectors'
-import { ApplicationName } from 'decentraland-dapps/dist/modules/features/types'
+import { getIsFeatureEnabled } from '@chaincodedev/decentraland-dapps/dist/modules/features/selectors'
+import { ApplicationName } from '@chaincodedev/decentraland-dapps/dist/modules/features/types'
 import { FeatureName } from './types'
 
 export const getIsMaintenanceEnabled = (state: RootState) => {

@@ -1,4 +1,4 @@
-import { SemanticICONS } from 'decentraland-ui'
+import { SemanticICONS } from '@chaincodedev/decentraland-ui'
 
 export type Props = {
   iconName: SemanticICONS

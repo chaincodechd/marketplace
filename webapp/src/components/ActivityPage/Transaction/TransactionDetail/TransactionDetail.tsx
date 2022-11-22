@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Loader, Icon } from 'decentraland-ui'
+import { Loader, Icon } from '@chaincodedev/decentraland-ui'
 import { Network } from '@dcl/schemas'
-import { getChainConfiguration } from 'decentraland-dapps/dist/lib/chainConfiguration'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { getChainConfiguration } from '@chaincodedev/decentraland-dapps/dist/lib/chainConfiguration'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import {
   isPending,
   getTransactionHref
-} from 'decentraland-dapps/dist/modules/transaction/utils'
+} from '@chaincodedev/decentraland-dapps/dist/modules/transaction/utils'
 import {
   TransactionStatus,
   Transaction
-} from 'decentraland-dapps/dist/modules/transaction/types'
+} from '@chaincodedev/decentraland-dapps/dist/modules/transaction/types'
 import { formatDistanceToNow } from '../../../../lib/date'
 import { getAssetUrl } from '../../../../modules/asset/utils'
 import { AssetImage } from '../../../AssetImage'

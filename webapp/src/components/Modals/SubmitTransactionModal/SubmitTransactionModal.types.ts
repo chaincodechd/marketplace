@@ -1,4 +1,4 @@
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from '@chaincodedev/decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import React from 'react'
 
 export type Props = ModalProps & {

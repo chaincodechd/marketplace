@@ -1,5 +1,5 @@
 import { Collection, CollectionFilters } from '@dcl/schemas'
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from '@chaincodedev/decentraland-dapps/dist/lib/api'
 import { NFT_SERVER_URL } from '../nft'
 import { retryParams } from '../utils'
 import { CollectionResponse } from './types'

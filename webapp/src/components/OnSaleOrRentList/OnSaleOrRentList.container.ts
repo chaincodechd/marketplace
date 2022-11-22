@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { Item } from '@dcl/schemas'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from '@chaincodedev/decentraland-dapps/dist/modules/loading/selectors'
 import { getLoading as getItemsLoading } from '../../modules/item/selectors'
 import { getLoading as getNFTsLoading } from '../../modules/nft/selectors'
 import { RootState } from '../../modules/reducer'

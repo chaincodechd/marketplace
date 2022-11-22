@@ -1,6 +1,6 @@
 import { NFT, RentalListing, RentalListingPeriod } from '@dcl/schemas'
 import { BigNumber, ethers } from 'ethers'
-import { getSigner } from 'decentraland-dapps/dist/lib/eth'
+import { getSigner } from '@chaincodedev/decentraland-dapps/dist/lib/eth'
 import { ChainId } from '@dcl/schemas'
 import { Asset } from '../asset/types'
 import {
@@ -14,7 +14,7 @@ import {
 } from './utils'
 import { getRentalsContractInstance } from './contract'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('@chaincodedev/decentraland-dapps/dist/lib/eth')
 jest.mock('./contract')
 
 const getSignerMock = getSigner as jest.MockedFunction<typeof getSigner>

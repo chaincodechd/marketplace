@@ -1,5 +1,5 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Props } from './ClaimLandModal.types'
 import styles from './ClaimLandModal.module.css'
 import { SubmitTransactionModal } from '../SubmitTransactionModal'

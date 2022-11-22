@@ -1,6 +1,6 @@
 import React from 'react'
 import { NFTCategory } from '@dcl/schemas'
-import { T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { T } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import { Link } from 'react-router-dom'
 import { locations } from '../../../modules/routing/locations'
 import { isLand } from '../../../modules/nft/utils'

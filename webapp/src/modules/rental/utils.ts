@@ -1,7 +1,7 @@
 import { BigNumber, ethers } from 'ethers'
 import { ChainId, PeriodCreation, RentalListing } from '@dcl/schemas'
 import { TypedDataDomain, TypedDataField } from '@ethersproject/abstract-signer'
-import { getSigner } from 'decentraland-dapps/dist/lib/eth'
+import { getSigner } from '@chaincodedev/decentraland-dapps/dist/lib/eth'
 import {
   ContractData,
   ContractName,

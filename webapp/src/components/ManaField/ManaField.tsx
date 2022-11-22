@@ -1,6 +1,6 @@
 import React from 'react'
 import { ethers } from 'ethers'
-import { Field, Mana } from 'decentraland-ui'
+import { Field, Mana } from '@chaincodedev/decentraland-ui'
 import { Props } from './ManaField.types'
 import './ManaField.css'
 import { ManaToFiat } from '../ManaToFiat'

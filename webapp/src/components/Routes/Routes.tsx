@@ -1,7 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { Center, Page } from 'decentraland-ui'
-import Intercom from 'decentraland-dapps/dist/components/Intercom'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Center, Page } from '@chaincodedev/decentraland-ui'
+import Intercom from '@chaincodedev/decentraland-dapps/dist/components/Intercom'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 
 import { AssetType } from '../../modules/asset/types'
 import { locations } from '../../modules/routing/locations'
@@ -18,7 +18,7 @@ import { TransferPage } from '../TransferPage'
 import { ActivityPage } from '../ActivityPage'
 import { HomePage } from '../HomePage'
 import { LegacyNFTPage } from '../LegacyNFTPage'
-import { LandsPage } from '../LandsPage'
+// import { LandsPage } from '../LandsPage'
 import { CollectionPage } from '../CollectionPage'
 import { config } from '../../config'
 import { Props } from './Routes.types'
@@ -45,7 +45,7 @@ const Routes = ({ inMaintenance }: Props) => {
   return (
     <>
       <Switch>
-        <Route exact path={locations.lands()} component={LandsPage} />
+        {/* <Route exact path={locations.lands()} component={LandsPage} /> */}
         <Route exact path={locations.browse()} component={BrowsePage} />
         <Route path={locations.MVMF22()} component={MVMFPage} />
         <Route

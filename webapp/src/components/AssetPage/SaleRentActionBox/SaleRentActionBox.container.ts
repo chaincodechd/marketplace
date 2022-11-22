@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { openModal } from 'decentraland-dapps/dist/modules/modal/actions'
-import { getData as getAuthorizations } from 'decentraland-dapps/dist/modules/authorization/selectors'
+import { openModal } from '@chaincodedev/decentraland-dapps/dist/modules/modal/actions'
+import { getData as getAuthorizations } from '@chaincodedev/decentraland-dapps/dist/modules/authorization/selectors'
 import { RootState } from '../../../modules/reducer'
 import { getWallet } from '../../../modules/wallet/selectors'
 import { getNFTBids } from '../../../modules/ui/nft/bid/selectors'

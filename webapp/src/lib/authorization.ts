@@ -2,7 +2,7 @@ import { Network } from '@dcl/schemas'
 import {
   Authorization,
   AuthorizationType
-} from 'decentraland-dapps/dist/modules/authorization/types'
+} from '@chaincodedev/decentraland-dapps/dist/modules/authorization/types'
 import { ContractName } from 'decentraland-transactions'
 import { getContract } from '../modules/contract/utils'
 import { getContractNames } from '../modules/vendor'

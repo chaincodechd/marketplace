@@ -8,9 +8,9 @@ import {
   Header,
   Popup,
   InputOnChangeData
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { toFixedMANAValue } from 'decentraland-dapps/dist/lib/mana'
+} from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { toFixedMANAValue } from '@chaincodedev/decentraland-dapps/dist/lib/mana'
 import {
   PeriodOption,
   UpsertRentalOptType

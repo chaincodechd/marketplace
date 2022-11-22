@@ -1,7 +1,7 @@
 import {
   loadingReducer,
   LoadingState
-} from 'decentraland-dapps/dist/modules/loading/reducer'
+} from '@chaincodedev/decentraland-dapps/dist/modules/loading/reducer'
 import {
   FetchEventFailureAction,
   FetchEventRequestAction,

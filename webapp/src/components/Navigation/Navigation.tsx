@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Tabs, Mobile } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Tabs, Mobile } from '@chaincodedev/decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import * as decentraland from '../../modules/vendor/decentraland'
 import { locations } from '../../modules/routing/locations'
 import { VendorName } from '../../modules/vendor'
@@ -52,11 +52,11 @@ const Navigation = (props: Props) => {
             {t('navigation.collectibles')}
           </Tabs.Tab>
         </Link>
-        <Link to={locations.lands()}>
+        {/* <Link to={locations.lands()}>
           <Tabs.Tab active={activeTab === NavigationTab.LANDS}>
             {t('navigation.land')}
           </Tabs.Tab>
-        </Link>
+        </Link> */}
         <Link to={locations.defaultCurrentAccount()}>
           <Tabs.Tab active={activeTab === NavigationTab.MY_STORE}>
             {t('navigation.my_assets')}

@@ -4,7 +4,7 @@ import { IPreviewController, PreviewEmoteEventType } from '@dcl/schemas'
 import {
   CONNECT_WALLET_SUCCESS,
   ConnectWalletSuccessAction
-} from 'decentraland-dapps/dist/modules/wallet/actions'
+} from '@chaincodedev/decentraland-dapps/dist/modules/wallet/actions'
 import { push, getLocation } from 'connected-react-router'
 import { locations } from '../routing/locations'
 import {

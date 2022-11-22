@@ -1,10 +1,10 @@
 import { ethers } from 'ethers'
 import { ChainId } from '@dcl/schemas'
 import { Provider } from 'decentraland-connect'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
+import { getConnectedProvider } from '@chaincodedev/decentraland-dapps/dist/lib/eth'
 import { getRentalsContractInstance } from './contract'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('@chaincodedev/decentraland-dapps/dist/lib/eth')
 
 const getConnectedProviderMock = getConnectedProvider as jest.MockedFunction<
   typeof getConnectedProvider

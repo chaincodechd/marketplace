@@ -2,7 +2,7 @@ import { ChainId, Item, Order, RentalListing, RentalStatus } from '@dcl/schemas'
 import {
   Transaction,
   TransactionStatus
-} from 'decentraland-dapps/dist/modules/transaction/types'
+} from '@chaincodedev/decentraland-dapps/dist/modules/transaction/types'
 import { NFT } from '../../nft/types'
 import { RootState } from '../../reducer'
 import { CLAIM_LAND_TRANSACTION_SUBMITTED } from '../../rental/actions'

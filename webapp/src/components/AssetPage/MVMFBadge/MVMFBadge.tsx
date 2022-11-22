@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
 import * as decentraland from '../../../modules/vendor/decentraland'
 import { locations } from '../../../modules/routing/locations'
 import { builderAPI } from '../../../modules/vendor/decentraland/builder/api'

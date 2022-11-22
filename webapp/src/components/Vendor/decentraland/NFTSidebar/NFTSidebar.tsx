@@ -1,6 +1,6 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Header, useNotMobileMediaQuery } from 'decentraland-ui'
+import { t } from '@chaincodedev/decentraland-dapps/dist/modules/translation/utils'
+import { Header, useNotMobileMediaQuery } from '@chaincodedev/decentraland-ui'
 
 import { isLandSection } from '../../../../modules/ui/utils'
 import { NFTSections } from '../NFTSections'

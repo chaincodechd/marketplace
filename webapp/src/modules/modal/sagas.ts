@@ -1,8 +1,8 @@
 import { LOCATION_CHANGE } from 'connected-react-router'
 import { delay, put, select, takeEvery } from 'redux-saga/effects'
-import { ModalState } from 'decentraland-dapps/dist/modules/modal/reducer'
-import { getOpenModals } from 'decentraland-dapps/dist/modules/modal/selectors'
-import { closeModal } from 'decentraland-dapps/dist/modules/modal/actions'
+import { ModalState } from '@chaincodedev/decentraland-dapps/dist/modules/modal/reducer'
+import { getOpenModals } from '@chaincodedev/decentraland-dapps/dist/modules/modal/selectors'
+import { closeModal } from '@chaincodedev/decentraland-dapps/dist/modules/modal/actions'
 import {
   CLAIM_LAND_SUCCESS,
   UPSERT_RENTAL_SUCCESS,
