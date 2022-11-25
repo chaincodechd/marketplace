@@ -40,14 +40,14 @@ const StatSections = [
     getUSDData: (data: AnalyticsVolumeData) => data.volumeUSD,
     formatUSDVolume: (number: number) => `$${formatAnalyticsVolume(number)}`
   },
-  {
-    key: 'dao_revenue',
-    icon: 'balance scale',
-    isMana: true,
-    getData: (data: AnalyticsVolumeData) => data.daoEarnings,
-    getUSDData: (data: AnalyticsVolumeData) => data.daoEarningsUSD,
-    formatUSDVolume: (number: number) => `$${formatAnalyticsVolume(number)}`
-  }
+  // {
+  //   key: 'dao_revenue',
+  //   icon: 'balance scale',
+  //   isMana: true,
+  //   getData: (data: AnalyticsVolumeData) => data.daoEarnings,
+  //   getUSDData: (data: AnalyticsVolumeData) => data.daoEarningsUSD,
+  //   formatUSDVolume: (number: number) => `$${formatAnalyticsVolume(number)}`
+  // }
 ]
 
 const AnalyticsVolumeDayData = (props: Props) => {

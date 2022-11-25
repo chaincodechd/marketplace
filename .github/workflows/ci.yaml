@@ -1,0 +1,29 @@
+name: Marketplace Deployment
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      name: check out code
+
+    - name: setting node
+      uses: actions/setup-node@v2
+      with:
+        node-version: "16.0.0"
+
+    - name: server login
+      run: ssh -i PEM_FILE ubuntu@13.232.174.153
+
+    # - name:
+
+
+
+
+      env:
+        PEM_FILE: ${{ secrets.PEM_FILE }}

@@ -3,7 +3,7 @@ import { Link, useHistory, useLocation } from 'react-router-dom'
 import {
   HeaderMenu,
   Header,
-  NotMobile,
+  NotMobile,  
   Table,
   Loader,
   Mana,
@@ -42,7 +42,7 @@ const RecentlySoldTable = (props: Props) => {
   useScrollSectionIntoView(
     recentlySoldCardRef,
     TABS_PREFIX,
-    setCurrentyCategory
+    setCurrentyCategory 
   )
 
   useEffect(() => {
@@ -80,7 +80,7 @@ const RecentlySoldTable = (props: Props) => {
           <Tabs.Left>
             {Object.values([
               NFTCategory.WEARABLE,
-              NFTCategory.PARCEL,
+              // NFTCategory.PARCEL,
               NFTCategory.EMOTE,
               NFTCategory.ENS
             ]).map(category => (
@@ -112,7 +112,7 @@ const RecentlySoldTable = (props: Props) => {
         direction="right"
         options={[
           NFTCategory.WEARABLE,
-          NFTCategory.PARCEL,
+          // NFTCategory.PARCEL,
           NFTCategory.EMOTE,
           NFTCategory.ENS
         ].map(category => ({

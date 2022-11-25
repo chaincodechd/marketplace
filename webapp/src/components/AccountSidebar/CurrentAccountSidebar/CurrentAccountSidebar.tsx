@@ -28,8 +28,7 @@ const CurrentAccountSidebar = ({
   section,
   onBrowse,
   isRentalsEnabled
-}: Props) => (
-  <>
+}: Props) => (                                                                                   <>
     <Menu>
       <Header sub>{t('account_sidebar.assets')}</Header>
       <MenuItem
