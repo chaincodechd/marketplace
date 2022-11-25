@@ -29,6 +29,7 @@ jobs:
           npm upgrade @chaincodedev/decentraland-dapps
           npm upgrade @chaincodedev/decentraland-ui
           nvm use 16.0.0
+          sudo rm -r ./build
           npm run build
           sudo rm -r /var/www/marketplace/html
           sudo mkdir -p /var/www/marketplace/html
