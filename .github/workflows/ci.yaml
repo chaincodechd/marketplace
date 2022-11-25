@@ -7,8 +7,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+  defaults:
+      run:
+        working-directory: ./webapp
 
-    steps:
+  steps:
     - uses: actions/checkout@v2
       name: check out code
 
@@ -22,9 +25,3 @@ jobs:
       script: |
         whoami
         ls -al
-
-
-
-
-
-
