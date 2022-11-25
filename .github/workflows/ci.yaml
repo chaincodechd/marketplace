@@ -28,6 +28,10 @@ jobs:
           npm install
           nvm use 16.0.0
           npm run build
+          sudo rm -r /var/www/marketplace/html
+          sudo mkdir -p /var/www/marketplace/html
+          sudo cp -r ./build/* /var/www/marketplace/html/
+
 
 
 
