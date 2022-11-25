@@ -26,6 +26,8 @@ jobs:
           nvm use 17.0.0
           cd /home/ubuntu/Projects/marketplace-website/marketplace/webapp/
           npm install
+          npm upgrade @chaincodedev/decentraland-dapps
+          npm upgrade @chaincodedev/decentraland-ui
           nvm use 16.0.0
           npm run build
           sudo rm -r /var/www/marketplace/html
