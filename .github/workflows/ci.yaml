@@ -7,21 +7,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  defaults:
-      run:
-        working-directory: ./webapp
+    defaults:
+        run:
+          working-directory: ./webapp
 
-  steps:
-  - uses: actions/checkout@v2
-    name: check out code
+    steps:
+      - uses: actions/checkout@v2
+        name: check out code
 
-  - name: server login
-    uses: appleboy/ssh-action@master
-    with:
-      host: ${{ secrets.HOST }}
-      username: ubuntu
-      key: ${{ secrets.PEM_FILE }}
-      port: 22
-      script: |
-        whoami
-        ls -al
+    - name: server login
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ubuntu
+        key: ${{ secrets.PEM_FILE }}
+        port: 22
+        script: |
+          whoami
+          ls -al
