@@ -18,7 +18,7 @@ jobs:
         node-version: "16.0.0"
 
     - name: server login
-      run: ssh -i PEM_FILE ubuntu@13.232.174.153
+      run: ssh -i $PEM_FILE ubuntu@13.232.174.153
 
     # - name:
 
