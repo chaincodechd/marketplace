@@ -21,15 +21,13 @@ jobs:
         key: ${{ secrets.PEM_FILE }}
         port: 22
         script: |
-          cd /home/ubuntu/Projects/marketplace-website/marketplace/
-          git pull origin develop
-          nvm use 17.0.0
+          cd /home/ubuntu/Projects/marketplace-website/
+          sudo rm -r /home/ubuntu/Projects/marketplace-website/marketplace 
+          git clone -b develop https://github.com/chaincodechd/marketplace.git
           cd /home/ubuntu/Projects/marketplace-website/marketplace/webapp/
+          nvm use 17.0.0
           npm install
-          npm upgrade @chaincodedev/decentraland-dapps
-          npm upgrade @chaincodedev/decentraland-ui
           nvm use 16.0.0
-          sudo rm -r ./build
           npm run build
           sudo rm -r /var/www/marketplace/html
           sudo mkdir -p /var/www/marketplace/html
