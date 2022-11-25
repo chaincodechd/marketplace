@@ -21,5 +21,15 @@ jobs:
         key: ${{ secrets.PEM_FILE }}
         port: 22
         script: |
-          node --version
-          ls -al
+          cd /Projects/marketplace-website/marketplace/
+          git pull origin develop
+          nvm use 17.0.0
+          cd /Projects/marketplace-website/marketplace/webapp/
+          npm install
+          nvm use 16.0.0
+          npm run build
+
+
+
+
+          
