@@ -12,12 +12,12 @@ jobs:
         working-directory: ./webapp
 
   steps:
-    - uses: actions/checkout@v2
-      name: check out code
+  - uses: actions/checkout@v2
+    name: check out code
 
-    - name: server login
-      uses: appleboy/ssh-action@master
-      with:
+  - name: server login
+    uses: appleboy/ssh-action@master
+    with:
       host: ${{ secrets.HOST }}
       username: ubuntu
       key: ${{ secrets.PEM_FILE }}
